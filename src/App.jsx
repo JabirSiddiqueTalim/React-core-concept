@@ -1,5 +1,6 @@
 import './App.css'
 import Form from './component/Form/Form'
+import Formactive from './component/Formactive/Formactive'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
        <h1>Get started</h1>
        <Form></Form>
+       <Formactive></Formactive>
     </>
   )
 }
