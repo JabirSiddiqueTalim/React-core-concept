@@ -9,19 +9,20 @@ const ControlledField = () => {
     e.preventDefault()
     console.log(e.target.password.value);
     console.log(e.target.email.value)
+    if(password.length<6)
+      {
+        setError('Password length less then 6')
+      }else
+      {
+        setError('')
+      }
 
   }
   const handlePassword =(e)=>
   {
     console.log(e.target.value)
     setPassword(e.target.value);
-    if(password.length<6)
-    {
-      setError('Password length less then 6')
-    }else
-    {
-      setError('')
-    }
+    
 
   }
   return (
@@ -40,5 +41,6 @@ const ControlledField = () => {
     </div>
   );
 };
+
 
 export default ControlledField;
