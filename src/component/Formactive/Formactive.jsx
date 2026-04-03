@@ -4,7 +4,7 @@ const Formactive = () => {
   
   const handleClick=(actives)=>
   {
-    // actives.preventDefault()
+    //  actives.preventDefault()
     console.log(actives.get('email'));
     
 
