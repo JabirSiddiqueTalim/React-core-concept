@@ -1,0 +1,14 @@
+.family-tree div
+{
+  /* margin: 20px; */
+  border: 2px solid rgb(17, 108, 96);
+  padding: 10px;
+  border-radius: 15px;
+  
+}
+.flex 
+{
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
